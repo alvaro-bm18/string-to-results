@@ -1,6 +1,6 @@
 function divide(a, b) {
     if (isNaN(a) || isNaN(b)) {
-        throw new Error("Dividend or divisor is not a number");
+        throw new Error("One value given is not a number");
     }
 
     if (b === 0) {
