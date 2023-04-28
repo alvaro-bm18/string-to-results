@@ -1,5 +1,5 @@
 const isValid = string => {
-    const operators = /[\+\-\*\/]/;
+    const operators = /[\+\-\*\/\.]/;
     if (typeof string !== 'string') {
         throw new Error("Given data is not a string");
     }
